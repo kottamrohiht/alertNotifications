@@ -1,0 +1,40 @@
+.AlertNotifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  min-height: 100vh;
+}
+
+.AlertNotifications-heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 26px;
+}
+
+@media (min-width: 768px) {
+  .AlertNotifications-heading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+}
+
+.unorderlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  list-style-type: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
